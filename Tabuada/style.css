@@ -1,0 +1,44 @@
+*{
+    border: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+header{
+    background-color: #D9D559;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-bottom: 3px solid #8CD959;
+}
+main{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #6DF866;
+    height: 80vh;
+}
+#submit{
+    background-color: yellow;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(220, 223, 38);
+    cursor: pointer;
+}
+#appear{
+    background-color: #F8E566;
+    width: 300px;
+    margin: auto;
+    list-style: none;
+    border-radius: 8px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.467);
+    margin-top: 30px;
+}
+div li{
+    line-height: 35px;
+    letter-spacing: .5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
