@@ -13,12 +13,12 @@ function verificar(){
 
    if (getGender[0].checked){
        genero = 'masc';
-   } else {                     //If para descobrir qual genro foi selecionado
+   } else {                     //If para descobrir qual genero que foi selecionado
        genero = 'fem'
    }
 
    if (ano_nas == 0 || ano_nas > anoAtual) {
-       window.alert('verifique os dados e tente novamente')
+       window.alert('verifique os dados e tente novamente') // se por acaso o ano estiver incorreto
    } else{
         if (genero == 'masc'){
             if (idade >= 0 && idade <= 12 ){
