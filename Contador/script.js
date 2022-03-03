@@ -9,13 +9,22 @@ function solve(){
     let num1 = Number(getNum1.value);
     let num2 = Number(getNum2.value);
     let passo = Number(getPasso.value);
-    text.innerHTML = '<strong> Resolvendo... <strong/>';
+
+    if (num1 == '' || num2 == ''  ){
+        window.alert('Digite os valores requeridos antes de continuar')
+    } else if (passo == 0){
+        window.alert('Passo inválido')
+    } else {
+        text.innerHTML = '<strong> Resolvendo... <strong/>';
     
-    content.innerHTML = '<strong> O resultado é: <strong/>'
-    while (num1 <= num2){
-        content.innerHTML += `${num1}👉`;
-        num1 += passo;
+        content.innerHTML = '<strong> O resultado é: <strong/>'
+        while (num1 <= num2){
+            content.innerHTML += `${num1}👉`;
+            num1 += passo;
         
     } 
     content.innerHTML += '🏴';
+
+    }
+    
 }
