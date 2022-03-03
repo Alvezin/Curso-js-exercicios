@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <header>
+        <h1>Contador de números</h1>
+    </header>
+    <main>
+        <fieldset>
+            <div>
+                <label for="num1">Início da contagem:</label>
+                <input type="number" id="num1" name="contagem">
+
+                <label for="num2">Final da contagem:</label>
+                <input type="number" id="num2" name="contagem">
+                
+                <label for="passos">Passos:</label>
+                <input type="number" id="passos" name="contagem">
+            </div>
+            <div>
+                <input type="button" value="Contar" id="submit" onclick="solve()">
+            </div>
+        </fieldset>
+        <article>
+            <p id="text"></p>
+            <div id="content">
+
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>
+            &copy; Feito por Gabriel Alves
+        </p>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
